@@ -1,11 +1,12 @@
 {
-  "name": "formatter",
+  "name": "phone-formatter",
   "version": "0.0.1",
   "description": "A NPM package that formats phone numbers",
   "main": "build/index.js",
   "scripts": {
     "build": "npm run lint && babel ./src -d ./lib",
-    "test": "nyc mocha --require babel-core/register"
+    "test": "nyc mocha --require babel-core/register",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",

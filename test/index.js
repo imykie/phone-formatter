@@ -7,6 +7,8 @@ const testSamples = [
     { input: 'abcdefghij', expectedResult: 'abcdefghij', description: 'should return pristine value when receiving "abcdefghij"' },
     { input: '9012345678', expectedResult: '(234) 90-1234-5678', description: 'should return (234) 90-1234-5678' },
     { input: '8198765432', expectedResult: '(234) 81-9876-5432', description: 'should return (234) 81-9876-5432' },
+    { input: null, expectedResult: null, description: 'should return null when null is passed' },
+    { input: undefined, expectedResult: null, description: 'should return null when undefined is passed' }
 ];
 
 

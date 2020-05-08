@@ -1,5 +1,5 @@
 {
-  "name": "phone-formatter",
+  "name": "@i_myke/phone-number-formatter",
   "version": "0.0.1",
   "description": "A NPM package that formats phone numbers",
   "main": "build/index.js",
@@ -43,5 +43,9 @@
       "lcov",
       "text"
     ]
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }

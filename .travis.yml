@@ -6,3 +6,12 @@ before_deploy:
 cache:
   directories:
   - node_modules
+deploy: 
+  skip_cleanp: true
+  provider: npm
+  email: tundexmike@gmail.com
+  api_key: 
+    secure: jlhfZ7EOhnsioJggraYQLdu/RVSpztV8wS9XdfaifKlfOnvOYpltMvc2iUtMmZHySz+pXJ2DNqyinV1eciOAOrOLmgkm1cvYfm/nUzdtVg22cDiuZgwwKobEMq3w47DDmM8Q5sVopdqnGJPA2+k6G2M84FxztgOwoUpZ1hIue/7jzXH/N38q66mlJAVKHD7Zp4mMi2yPMzwwqA0wP7b8vyO+yjIYgtfZ46M3Uk0BNganHbydHq/frL/BTueV4aI40axGtEiH/uXjZjrlxOs82vmxTK6jKasleMYcvVRoOUT1XmE6zyz87aHs8VlkM/Y7z5d/4P3SSpW5BTmHB1ezhWfBc9UGXAzZ9u0qFK0arZYBmKgom01VhUGD4oq3I5csg4i+iXWKvUyMqzFV4wxpxN91rmN966+RAxwOVqCyk0aj62/erJyTHO5/W689r89RPgGWp7Znh2p3cbckiqdgNOXg5PsKe7IiVXFxdRZaCRwshQIp8KIOTl2/mxZfDDO9Ce1NzfP0s/AsC11ARV4TVoTEHd8elZntroBj/UucHpo42m62yNgzxYOEr+eIBUJzzGGapp24ShWzCN0ljM3IiStPN743Vv6rmSrSM1vcO4hQUTM8HxoyIxhkmUfzBuC64trWWZCS3oA4XgFvJEb2td3ca9phwSI+JpYv5ULdghQ=
+  on:
+    tags: true
+    repo: michaelolatunji/phone-formatter

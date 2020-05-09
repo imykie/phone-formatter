@@ -2,4 +2,7 @@ language: node_js
 node_js:
 - node
 before_deploy:
-- npm run build+++np
+- npm run build
+cache:
+  directories:
+  - node_modules
